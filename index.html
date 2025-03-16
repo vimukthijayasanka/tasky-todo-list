@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <script type="module" src="./src/js/main.js"></script>
+    <script type="module" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <div id="container">
+    <header id="header">
+       <h1><i class="bi bi-list-check"></i> Todo List</h1>
+      <div id="btn-toggle" class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+      </div>
+    </header>
+  </div>
+  <div id="form-container">
+    <input id="text-field" class="form-control" type="text" placeholder="Enter Task Here !" aria-label="default input example">
+    <input id="btn-add" class="btn btn-primary" type="button" value="Add">
+  </div>
+<hr>
+  <div id="task-list-container">
+    <h2 id="h2-task">Tasks List</h2>
+    <div id="task-list">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault-1">
+        <label class="form-check-label" for="flexCheckDefault-1">Task 1</label>
+        <i class="bi bi-pencil-fill"></i>
+        <i class="bi bi-trash"></i>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault-2">
+        <label class="form-check-label" for="flexCheckDefault-2">Task 2</label>
+        <i class="bi bi-pencil-fill"></i>
+        <i class="bi bi-trash"></i>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div id = "checked-list-container">
+    <h2 id="h2-check-list">Checked List</h2>
+    <div id="checked-list">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">Task 3</label>
+        <i class="bi bi-trash"></i>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
