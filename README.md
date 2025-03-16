@@ -28,10 +28,16 @@ The project is still in development, and future updates will include **Firebase 
 
 ---
 
+## Screenshots 📷
+
+![Main Ui of the Tasky todo App](./public/image1.png)
+
+---
+
 ## 🚀 Installation
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/todo-list-app.git
+   git clone https://github.com/vimukthijayasanka/tasky-todo-list?tab=readme-ov-file
    ```
 2. **Navigate to the project directory:**
    ```sh
@@ -95,7 +101,7 @@ Contributions are **welcome**! Feel free to **fork** the project and submit pull
 ---
 
 ## 📜 License
-This project is licensed under the **MIT License**.
+This project is licensed under the **[MIT License](license.txt)**.
 
 ---
 
